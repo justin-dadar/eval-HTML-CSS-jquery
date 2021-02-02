@@ -1,0 +1,117 @@
+/* reset CSS */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* MODIFICATION DU HEADER */
+
+nav {
+  background-color: #061339;
+  color: white;
+}
+
+nav p {
+  width: 60%;
+  margin: auto;
+  padding: 10px 0px;
+  font-family: "Merienda", cursive;
+}
+
+.headerBottom {
+  background-image: url("./img/background.jpg");
+  text-align: center;
+}
+.headerBottom h1 {
+  padding: 65px 0px;
+  color: #fff;
+  font-family: "Merienda", cursive;
+
+  text-shadow: 3px 3px 0px rgba(81, 81, 81, 1);
+}
+
+/* MODIFICATION DU FORM ET DU CAROUSEL */
+
+h4 {
+  color: #2f4073;
+  font-family: "Merienda", cursive;
+}
+
+.formulaire {
+  margin-right: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border: solid grey 1px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+form select {
+  margin-bottom: 1.5rem;
+}
+form textarea {
+  margin-bottom: 1.5rem;
+}
+
+.content {
+  display: flex;
+  margin: 3rem auto;
+  width: 60%;
+}
+
+.carousel {
+  width: 768px;
+  height: 400px;
+  height: 50%;
+  width: 80%;
+}
+.carousel img {
+  width: 100%;
+  height: 100%;
+}
+
+/* MODIFICATION DU BAS DE LA PAGE */
+
+.basBackground {
+  background-color: #ddd;
+}
+
+.bas {
+  width: 60%;
+  margin: 0 auto;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.bas img {
+  background-color: #7885a5;
+}
+.bas img:hover {
+  background-color: #061339;
+}
+
+footer {
+  background-color: #061339;
+  color: white;
+  text-align: end;
+}
+
+/* CLASSE ATTRIBUER PAR JQUERY */
+
+.valid {
+  background-color: rgba(8, 173, 8, 0.486);
+  border: solid 1px rgb(1, 73, 1);
+}
+
+.valid p {
+  color: rgb(25, 146, 25);
+  padding: 1rem;
+}
